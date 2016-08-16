@@ -9,7 +9,7 @@ Realizado o primeiro encontro do OESTIDigital em São Miguel do Oeste.
 
 Aconteceu no dia 23 de julho(sábado) entre 08hs-12:30hs.
 
-Os temas abordados e seus respectivos palestrantes serão:
+Os temas abordados e seus respectivos palestrantes foram:
 
 * Visão de mercado e Sucesso do Cliente, com [Lucas Miguel Gnigler](www.lucasmiguel.com)
 * Git/GitHub + Code Sharing, com [Johni Marangon](http://www.johnidouglas.com.br/)
