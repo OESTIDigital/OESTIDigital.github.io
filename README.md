@@ -14,6 +14,5 @@ Nosso website :rocket:
 
 - git clone https://github.com/OESTIDigital/OESTIDigital.github.io.git
 - cd OESTIDigital.github.io/
-- 
 
 
