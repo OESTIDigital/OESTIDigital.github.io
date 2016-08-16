@@ -7,7 +7,7 @@ Nosso website :rocket:
 
 ##### Pré-requisitos
 
-- Ter o [Jenkyl](https://jekyllrb.com/) instalado
+- Ter o [Jekyll](https://jekyllrb.com/) instalado
 
 
 #### Passos para executar o projeto 
