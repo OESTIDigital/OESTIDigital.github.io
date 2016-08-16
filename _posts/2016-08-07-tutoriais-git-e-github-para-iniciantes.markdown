@@ -5,6 +5,8 @@ date:   2016-08-07 22:17:00 -0300
 categories: tutoriais
 ---
 
+![]({{ site.url }}/_assets/git-github.jpeg)
+
 Esse tutorial tem como objetivo ser um guia para uso do Git e GitHub.
 
 Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou se preferir você pode enviar um [pull request](https://github.com/OESTIDigital/tutoriais/pulls) com as modificações.
