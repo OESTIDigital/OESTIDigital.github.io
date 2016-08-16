@@ -5,7 +5,7 @@ date:   2016-08-07 22:17:00 -0300
 categories: tutoriais
 ---
 
-![]({{ site.url }}/assets/git-github.jpg){: .center-image }
+![]({{ site.url }}/assets/gitgithub.jpg){: .center-image }
 
 Esse tutorial tem como objetivo ser um guia para uso do Git e GitHub.
 
