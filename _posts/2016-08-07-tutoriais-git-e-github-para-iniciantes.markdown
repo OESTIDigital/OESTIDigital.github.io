@@ -26,25 +26,25 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 #### Livro
 
-- https://www.casadocodigo.com.br/pages/sumario-git-github
+- [https://www.casadocodigo.com.br/pages/sumario-git-github](https://www.casadocodigo.com.br/pages/sumario-git-github)
 
 ### Tutoriais
 
-- http://rogerdudler.github.io/git-guide/
-- http://johnidouglas.com/dicas-para-uso-do-git-e-o-github/
+- [http://rogerdudler.github.io/git-guide](http://rogerdudler.github.io/git-guide)
+- [http://johnidouglas.com/dicas-para-uso-do-git-e-o-github](http://johnidouglas.com/dicas-para-uso-do-git-e-o-github)
 
 ### Curso
 
-- http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes
+- [http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
 	
 ### Videos recomendados 
 
-- https://www.youtube.com/watch?v=TReVFOxhh7E
-- https://www.youtube.com/watch?v=Fc_UC5SywuU
-- https://www.youtube.com/watch?v=Ahv6vPTZJqk
-- https://www.youtube.com/watch?v=UMhskLXJuq4
-- https://www.youtube.com/watch?v=neDiLHwXSVo
-- https://www.youtube.com/watch?v=yNwh0S0S0bU
+- [https://www.youtube.com/watch?v=TReVFOxhh7E](https://www.youtube.com/watch?v=TReVFOxhh7E)
+- [https://www.youtube.com/watch?v=Fc_UC5SywuU](https://www.youtube.com/watch?v=Fc_UC5SywuU)
+- [https://www.youtube.com/watch?v=Ahv6vPTZJqk](https://www.youtube.com/watch?v=Ahv6vPTZJqk)
+- [https://www.youtube.com/watch?v=UMhskLXJuq4](https://www.youtube.com/watch?v=UMhskLXJuq4)
+- [https://www.youtube.com/watch?v=neDiLHwXSVo](https://www.youtube.com/watch?v=neDiLHwXSVo)
+- [https://www.youtube.com/watch?v=yNwh0S0S0bU](https://www.youtube.com/watch?v=yNwh0S0S0bU)
 
 > Dica: No Youtube você pode aumentar a velocidade de execução do vídeo para 1.5x
 
