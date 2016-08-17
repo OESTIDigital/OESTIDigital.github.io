@@ -1,0 +1,9 @@
+<hr>
+{% if page.tags %}
+<div class="post-tag">
+<strong>Tags: </strong>
+    {% for tag in page.tags %}
+        {{ tag }}{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

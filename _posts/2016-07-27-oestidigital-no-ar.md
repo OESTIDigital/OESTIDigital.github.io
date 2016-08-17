@@ -2,7 +2,8 @@
 layout: post
 title:  "OESTIDigital no ar!"
 date:   2016-07-27 01:18:27 -0300
-categories: evento
+category: Evento
+tags: [evento, inicio]
 ---
 
 Realizado o primeiro encontro do OESTIDigital em São Miguel do Oeste.
@@ -16,4 +17,3 @@ Os temas abordados e seus respectivos palestrantes foram:
 * Introdução a linguagem Ruby, com [Jônatas Paganini](http://ideia.me)
 
 Veja [como foi o evento no facebook](https://www.facebook.com/events/1057873537642001/).
-
