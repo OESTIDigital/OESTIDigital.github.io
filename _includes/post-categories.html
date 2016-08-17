@@ -1,0 +1,10 @@
+<h2>{{ post.category }}</h2>
+<div id="blog-categories">
+    <ul class="">
+        {% for category in site.categories %}
+        <li class="list-group-item">
+            {{ category | first }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
