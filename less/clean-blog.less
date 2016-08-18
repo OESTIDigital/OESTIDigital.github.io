@@ -1,4 +1,5 @@
 @import "variables.less";
+@import "variables.less";
 @import "mixins.less";
 
 // Global Components
@@ -158,7 +159,7 @@ hr.small {
 
 .intro-header {
 	background: no-repeat center center;
-	background-color: @gray;
+	background-color: @brand-primary;
 	background-attachment: scroll;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
@@ -167,7 +168,6 @@ hr.small {
 	.post-heading,
 	.page-heading {
 		padding: 100px 0 50px;
-		color: white;
 		@media only screen and (min-width: 768px) {
 			padding: 150px 0;
 		}
@@ -213,9 +213,6 @@ hr.small {
 			font-style: italic;
 			font-weight: 300;
 			font-size: 20px;
-			a {
-				color: white;
-			}
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
@@ -460,4 +457,66 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: @brand-primary;
+}
+
+
+//---------------
+.blog-categories{
+	ul{
+		padding: 0;
+	}
+}
+
+header.intro-header{
+	color: #fff;
+	&.tutoriais{
+		background-color: @bg-tutoriais;
+		.smart-text-color(@bg-tutoriais);
+		a{
+			.smart-text-color(@bg-tutoriais);
+		}
+	}
+	&.evento{
+		background-color: @bg-evento;
+		.smart-text-color(@bg-evento);
+		a{
+			.smart-text-color(@bg-evento);
+		}
+	}
+	&.ruby{
+		background-color: @bg-ruby;
+		.smart-text-color(@bg-ruby);
+		a{
+			.smart-text-color(@bg-ruby);
+		}
+	}
+	&.css{
+		background-color: @bg-css;
+		.smart-text-color(@bg-css);
+		a{
+			.smart-text-color(@bg-css);
+		}
+	}
+	&.js{
+		background-color: @bg-js;
+		.smart-text-color(@bg-js);
+		a{
+			.smart-text-color(@bg-js);
+		}
+	}
+	&.html{
+		background-color: @bg-html;
+		.smart-text-color(@bg-html);
+		a{
+			.smart-text-color(@bg-html);
+		}
+	}
+	&.python{
+		background-color: @bg-python;
+		.smart-text-color(@bg-python);
+		a{
+			.smart-text-color(@bg-python);
+		}
+	}
+
 }

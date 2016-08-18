@@ -4,6 +4,8 @@ title:  "OESTIDigital no ar!"
 date:   2016-07-27 01:18:27 -0300
 category: Evento
 tags: [evento, inicio]
+author: Jônatas Davi Paganini
+author_github: jonatas
 ---
 
 Realizado o primeiro encontro do OESTIDigital em São Miguel do Oeste.

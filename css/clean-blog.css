@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2016 Start Bootstrap
- * Licensed under MIT (https://spdx.org/licenses/MIT)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -30,7 +24,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #00c078;
 }
 a img:hover,
 a img:focus {
@@ -115,14 +109,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #00c078;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #00c078;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -135,7 +129,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #00c078;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,7 +141,6 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -200,9 +193,6 @@ hr.small {
   font-weight: 300;
   font-size: 20px;
 }
-.intro-header .post-heading .meta a {
-  color: white;
-}
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
@@ -217,7 +207,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #00c078;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -241,7 +231,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #00c078;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -321,7 +311,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #00c078;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -341,8 +331,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #00c078;
+  border: 1px solid #00c078;
   color: white;
 }
 .pager {
@@ -369,8 +359,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #00c078;
+  border: 1px solid #00c078;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -383,12 +373,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #00c078;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #00c078;
 }
 img::selection {
   color: white;
@@ -399,5 +389,60 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #00c078;
+}
+.blog-categories ul {
+  padding: 0;
+}
+header.intro-header {
+  color: #fff;
+}
+header.intro-header.tutoriais {
+  background-color: #7aab13;
+  color: #fafef2;
+}
+header.intro-header.tutoriais a {
+  color: #fafef2;
+}
+header.intro-header.evento {
+  background-color: #00b5c3;
+  color: #f6feff;
+}
+header.intro-header.evento a {
+  color: #f6feff;
+}
+header.intro-header.ruby {
+  background-color: #b31917;
+  color: #fffdfd;
+}
+header.intro-header.ruby a {
+  color: #fffdfd;
+}
+header.intro-header.css {
+  background-color: #2da0c3;
+  color: #ffffff;
+}
+header.intro-header.css a {
+  color: #ffffff;
+}
+header.intro-header.js {
+  background-color: #d6ba32;
+  color: #000000;
+}
+header.intro-header.js a {
+  color: #000000;
+}
+header.intro-header.html {
+  background-color: #eb7728;
+  color: #000000;
+}
+header.intro-header.html a {
+  color: #000000;
+}
+header.intro-header.python {
+  background-color: #1b3f5d;
+  color: #bed7ec;
+}
+header.intro-header.python a {
+  color: #bed7ec;
 }

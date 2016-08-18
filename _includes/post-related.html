@@ -1,6 +1,6 @@
 <hr>
 <h5>Relacionados</h5>
-{% for post in site.posts %}
+{% for post in site.posts limit 5 %}
     {% if post.category == page.category and post.title != page.title %}
         <a href="{{ post.url }}">
             {{ post.title }} <small>({{ post.date | date: "%d/%m/%Y" }})</small>

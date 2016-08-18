@@ -20,3 +20,12 @@
 .sans-serif () {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.smart-text-color (@a) when (lightness(@a) >= 50%) {
+  // Its a light color return a dark output
+  color: darken(@a, 60%);
+}
+.smart-text-color (@a) when (lightness(@a) < 50%) {
+  // Its a dark color return a dark output
+  color: lighten(@a, 60%);
+}

@@ -4,6 +4,8 @@ title:  "Git e Github para Iniciantes"
 date:   2016-08-07 22:17:00 -0300
 category: Tutoriais
 tags:	[git, github, iniciante, tutorial]
+author: Johni Douglas Marangon
+author_github: johnidm
 ---
 
 ![]({{ site.url }}/assets/gitgithub.jpg){: .center-image }
