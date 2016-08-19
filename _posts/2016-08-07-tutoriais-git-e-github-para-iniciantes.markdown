@@ -8,7 +8,7 @@ author: Johni Douglas Marangon
 author_github: johnidm
 ---
 
-![]({{ site.url }}/assets/gitgithub.jpg){: .center-image }
+![]({{ site.url }}/assets/img/gitgithub.jpg){: .center-image }
 
 Esse tutorial tem como objetivo ser um guia para uso do Git e GitHub.
 
