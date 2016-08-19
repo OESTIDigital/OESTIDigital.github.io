@@ -5,7 +5,7 @@ body {
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 p a {
   text-decoration: underline;
@@ -445,4 +445,7 @@ header.intro-header.python {
 }
 header.intro-header.python a {
   color: #bed7ec;
+}
+img.emoji.img-responsive {
+  display: initial;
 }

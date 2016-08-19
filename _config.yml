@@ -1,11 +1,11 @@
 # Site settings
 title: OESTI Digital
 header-img: img/home-bg.jpg
-email:
+email: oestidigital@gmail.com
 copyright_name: OESTI Digital
 description: "OESTIDigital é a comunidade de TI do extremo oeste de SC"
 baseurl: ""
-url: "http://oestidigital.github.io"
+url: "http://www.oestidigital.com.br"
 twitter_username:
 github_username:  oestidigital
 facebook_username:  oestidigital
@@ -21,6 +21,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","Gemfile*"]
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jemoji]
