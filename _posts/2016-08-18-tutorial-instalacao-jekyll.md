@@ -9,6 +9,7 @@ author_github: jrmessias
 ---
 
 Este tutorial tem como objetivo instruir a instalação do Jekyll para que todos possam contribuir com este blog e ter o seu próprio, gratuitamente. Para isto, vamos entender o que é o Jekyll e o que precisamos para utilizá-lo localmente.
+___
 
 # Jekyl, mas afinal, o que é o Jekyll?
 
@@ -18,52 +19,17 @@ A instalação será dividia em Ruby e RubyDevKit para os diferentes sitemas ope
 
 ## Instalação do Ruby - [Download](http://rubyinstaller.org/downloads/) :arrow_down:
 
-#### Linux
+> É necessário que seja instalado o Ruby 2 ou superior, se esta não for a versão instalada, verifique como atualizá-la em seu SO.
+
 > Verifique qual distribuição linux está utilizando para saber qual o gerenciador de pacotes (yum, apt-get ou rpm) será utilizado, os exempls aqui serão com Ubuntu e Debian.
+
+#### Linux
 
 ### Ubuntu 16 - Xenial Xerus
 
 No terminal, digite `sudo apt-get install ruby ruby-dev make gcc nodejs`
 
-> É necessário que seja instalado o Ruby 2 ou superior, caso não seja esta a versão, pode-se adicionar o repositório da versão, isto poderá ocorrer no Ubuntu 14 - Trusty Tahr.
-
-Para adicionar o repositório, no teminal digite `apt-add-repository ppa:brightbox/ruby-ng`.
-
-Para atualizar os pacotes, digite `apt-get update`.
-
-Para instalar o Ruby, digite `apt-get install ruby2.2`.
-
 *Contribuição de Felippe Puhle [@felippepuhle](https://github.com/felippepuhle)*
-
-### Debian 8 - Jessie
-
-Para adicionar repostiório no seu sources.list, digite `sudo vim /etc/apt/sources.list`.
-
-Tecle a letra `i` para ativar o modo de inserção e siga até o final do arquivo, adicione o repositório `deb http://ftp.debian.org/debian sid main`.
-
-Tecle `ESC` e digite `:wq` (para sair e salvar no editor vim).
-
-Faça o update dos repositórios e atualize a libc6, utilizando os comandos:
-
-`sudo apt-get update`
-
-`sudo apt-get -t sid install libc6 libc6-dev libc6-dbg libssl-dev`
-
-Intalando o rbenv, ruby-build e ruby 2.3.1, utilize o comando `sudo apt-get install build-essential zlib1g-dev libsqlite3-dev`.
-
-Com o pacote ruby-full teremos instalado praticamente tudo que é necessário para utilizar o ruby, digite `sudo apt-get install ruby-full`.
-
-Verifique a versão do ruby instalado, com o comando `ruby -v`.
-
-NodeJS já vem instalado na versão 4.4.7.
-
-Foi necessário adicionar o repositório `sid` pois só nele encontramos a libc6 que acabou sendo necessária e onde é disponibilizada a versão mais nova do ruby.
-
-Ao final remova o a linha `deb http://ftp.debian.org/debian sid main` do seu arquiv `sources.list`.
-
-E atualize os repositórios novamente, com o comando `apt-get update`.
-
-*Contribuição de Marcelo Lauxen [@marcelolx](https://github.com/marcelolx)*
 
 #### Mac
 **@TODO**
@@ -72,13 +38,11 @@ E atualize os repositórios novamente, com o comando `apt-get update`.
 
 Para este tutorial, estou utilizando a versão 2.3.1 do instalador (rubyinstaller-2.3.1-x64.exe).
 
-**Detalhes:**
-
-Quando solicitar o caminho da instalação:
+Clique em `next` até aparecer a tela onde será solicitado o caminho da instalação, utilize a seguinte configuração:
 - Utilizar `C:\Ruby` e marcar as opções
 - Marcar a opção `Add Ruby to your PATH`
 
-Via linha de comando, digite `ruby -v`, aparecerá a seguinte mensagem `ruby 2.3.1p112 (2016-04-26 revision 54768) [x64-mingw32]`.
+Após instalado, via linha de comando, digite `ruby -v`, aparecerá a seguinte mensagem `ruby 2.3.1p112 (2016-04-26 revision 54768) [x64-mingw32]`.
 
 #### Instalação do RubyDevKit - [Download](http://rubyinstaller.org/downloads/) :arrow_down:
 Para este tutorial, estou utilizando a versão 4.7.2-20130224-1432 do pacote (DevKit-mingw64-64-4.7.2-20130224-1432-sfx).
@@ -116,10 +80,10 @@ Até aqui, seu site Jekyll funcionando. :smile:
 Este projeto possui o [Grunt](http://gruntjs.com/) como automatizador de tarefas, para geração de assets como css e js.
 
 **Regras:**
-- Por favor, utilizem a pasta `assets/img` para colocar as imagens relacionadas aos posts, com nome pode-se utilizar o nome do post, é unico.
-- Na pasta `_post` há os arquivos de posts do blog, lembre-se sempre de colocar o Nome e URL do Github do autor.
-- O conteúdo dos posts podem ser escritos em markdown, liquid e html.
-- Antes de criar um post, crie um `pull request` com o post para engrandecê-lo, conversar sobre, ter opiniões e auxílio de outros colegas.
+- Por favor, utilizem a pasta `assets/img` para colocar as imagens relacionadas aos posts, com nome pode-se utilizar o nome do post, é unico;
+- Na pasta `_post` há os arquivos de posts do blog, lembre-se sempre de colocar o Nome e URL do Github do autor;
+- O conteúdo dos posts podem ser escritos em markdown, liquid e html;
+- Antes de criar um post, crie um `pull request` com o post para melhorá-lo, conversar sobre, ter opiniões e auxílio de outros colegas.
  
 **Agora você pode colaborar com nosso blog e ter o seu próprio, gratuitamente** :smile:
 
