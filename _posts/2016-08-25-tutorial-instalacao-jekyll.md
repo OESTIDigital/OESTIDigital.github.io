@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "Tutorial de instalação Jekyll"
-date:   2016-08-22 22:00:00 -0300
+date:   2016-08-25 12:00:00 -0300
 category: Tutoriais
 tags:	[jekyll, ruby, bundler, blog]
 author: Júnior Messias
 author_github: jrmessias
 ---
 
-Este tutorial tem como objetivo instruir a instalação do Jekyll para que todos possam contribuir com este blog e ter o seu próprio, gratuitamente. Para isto, vamos entender o que é o Jekyll e o que precisamos para utilizá-lo localmente.
-___
+Este tutorial tem como objetivo instruir a instalação do Jekyll para que todos possam contribuir com este blog e ter o seu próprio, gratuitamente. Para isto, vamos entender o que é o Jekyll e o que precisamos para utilizá-lo.
+
+____
 
 # Jekyl, mas afinal, o que é o Jekyll?
 
@@ -21,11 +22,9 @@ A instalação será dividia em Ruby e RubyDevKit para os diferentes sitemas ope
 
 > É necessário que seja instalado o Ruby 2 ou superior, se esta não for a versão instalada, verifique como atualizá-la em seu SO.
 
+#### Linux (Ubuntu 16 - Xenial Xerus)
+
 > Verifique qual distribuição linux está utilizando para saber qual o gerenciador de pacotes (yum, apt-get ou rpm) será utilizado, os exempls aqui serão com Ubuntu e Debian.
-
-#### Linux
-
-### Ubuntu 16 - Xenial Xerus
 
 No terminal, digite `sudo apt-get install ruby ruby-dev make gcc nodejs`
 
@@ -33,9 +32,13 @@ No terminal, digite `sudo apt-get install ruby ruby-dev make gcc nodejs`
 
 #### Mac
 
-As versões mais recentes do Mac OS já vem com o Ruby instalado. Caso você não tenha o Ruby instalado basta digitar o seguinte comando `brew install ruby`, nós recomendamos o usu do [Homebrew](http://brew.sh/), um gerenciador de pacotes para Mac OS para fazer a instalação do Ruby.
+As versões mais recentes do Mac OS já vem com o Ruby instalado.
+
+Caso você não tenha o Ruby instalado basta digitar o seguinte comando `brew install ruby`, nós recomendamos o uso do [Homebrew](http://brew.sh/), um gerenciador de pacotes para Mac OS para fazer a instalação do Ruby.
 
 Para instalar o Jekyll é necessário executar o seguinte comando `sudo gem install jekyll`, pronto isso é o suficiente.
+
+*Contribuição de Johni Douglas Marangon [@johnidm](https://github.com/johnidm)*
 
 #### Windows 
 
