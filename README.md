@@ -16,4 +16,6 @@ Nosso website :rocket:
 - jekyll serve
 
 
-Nesse [tutorial](http://oestidigital.com.br/tutoriais/2016/08/25/tutorial-instalacao-jekyll/) vo6ê tera mais detalhes de como instalar e criar seus primeiros posts.
+Nesse [tutorial](http://oestidigital.com.br/tutoriais/2016/08/25/tutorial-instalacao-jekyll/) você terá mais detalhes de como instalar o Jekyll.
+
+
