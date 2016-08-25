@@ -32,7 +32,10 @@ No terminal, digite `sudo apt-get install ruby ruby-dev make gcc nodejs`
 *Contribuição de Felippe Puhle [@felippepuhle](https://github.com/felippepuhle)*
 
 #### Mac
-**@TODO**
+
+As versões mais recentes do Mac OS já vem com o Ruby instalado. Caso você não tenha o Ruby instalado basta digitar o seguinte comando `brew install ruby`, nós recomendamos o usu do [Homebrew](http://brew.sh/), um gerenciador de pacotes para Mac OS para fazer a instalação do Ruby.
+
+Para instalar o Jekyll é necessário executar o seguinte comando `sudo gem install jekyll`, pronto isso é o suficiente.
 
 #### Windows 
 
