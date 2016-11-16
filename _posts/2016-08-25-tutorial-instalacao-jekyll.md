@@ -73,6 +73,20 @@ Abra o seu programa de linha de comando e digite `gem install jekyll`.
 
 Até aqui, Ruby, Ruby DevKit, Bundler e Jekyll.
 
+#### Possível erro de certificado na instalação das gems
+Caso o seguinte erro ocorrer na instalação de alguma gem, siga os procedimentos abaixo:
+
+```
+ERROR:  Could not find a valid gem 'bundler' (>= 0), here is why:
+          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)
+```
+
+- Baixe a [rubygems_update version 2.6.8](https://rubygems.org/gems/rubygems-update/versions/2.6.8) (última versão até o momento)
+- Abra o seu programa de linha de comando na mesma pasta do download e digite `gem install rubygems-update-2.6.8.gem`
+- Ainda Na linha de comando, digite `update_rubygems --no-ri --no-rdoc`
+- Confirme a versão *2.6.8* com o comando `gem -v`
+- (Opcional) Desinstale o update_rubygems com o comando `gem uninstall rubygems-update -x`
+
 ### Para rodar o projeto Jekyll
 As dependências deste projeto estão no arquivo Gemfile, para baixá-las, na linha de comando, digite `bundler install`, estas dependencias também estão no arquivo `_config.yml` que é o arquivo de configuração do jekyll.
 
